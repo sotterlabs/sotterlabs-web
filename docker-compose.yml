@@ -1,0 +1,9 @@
+services:
+  sotter-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sotter-web
+    restart: unless-stopped
+    ports:
+      - "8085:80"
