@@ -4,11 +4,11 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Sotter Labs Ltd.",
-  description: "Privacy Policy for Juno, developed by Sotter Labs Ltd.",
+  title: "Terms of Service | Sotter Labs Ltd.",
+  description: "Terms and Conditions for Juno, developed by Sotter Labs Ltd.",
 };
 
-export default function PrivacyPolicy() {
+export default function TermsOfService() {
   return (
     <main className="min-h-screen bg-[#F8FBFF] text-[#030B26]">
       <Navbar />
@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
           </span>
 
           <h1 className="mt-6 text-4xl font-black tracking-tight text-[#030B26] sm:text-5xl">
-            Privacy Policy
+            Terms and Conditions
           </h1>
 
           <p className="mt-4 text-sm font-bold text-[#667085]">
@@ -29,91 +29,28 @@ export default function PrivacyPolicy() {
 
           <div className="mt-12 space-y-10 rounded-[2rem] border border-[#E6ECF5] bg-white p-8 shadow-sm lg:p-12">
             <p className="leading-7 text-[#344054]">
-              Juno (&quot;the App&quot;) is developed and operated by Sotter
-              Labs. This Privacy Policy explains what information we
-              collect, how we use it, and how we protect your data.
+              Welcome to Juno. By downloading or using the App, you agree
+              to these Terms and Conditions.
             </p>
 
             <div>
               <h2 className="text-2xl font-black text-[#030B26]">
-                Information We Collect
+                Eligibility
               </h2>
               <p className="mt-3 leading-7 text-[#344054]">
-                The App may collect the following information:
-              </p>
-              <ul className="mt-4 space-y-2 leading-7 text-[#344054]">
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Name or nickname
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Email address
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Date of birth (only to verify minimum age requirements)
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Country or region
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Language preference
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Premium subscription status
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Anonymous analytics and crash reports (when available)
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-black text-[#030B26]">
-                Google Sign-In
-              </h2>
-              <p className="mt-3 leading-7 text-[#344054]">
-                If you choose to sign in using Google, we receive only the
-                information you authorize Google to share, such as your
-                email address and basic profile. We never access your
-                Google password.
+                You must meet the minimum legal age required in your
+                country to use Juno.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-black text-[#030B26]">
-                How We Use Your Information
+                Accounts
               </h2>
               <p className="mt-3 leading-7 text-[#344054]">
-                Your information is used to:
+                You are responsible for maintaining accurate account
+                information and for keeping your login credentials secure.
               </p>
-              <ul className="mt-4 space-y-2 leading-7 text-[#344054]">
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Create and manage your account.
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Verify your eligibility based on age.
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Restore purchases and premium access.
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Provide customer support.
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-[#2F7DF6]">•</span>
-                  Improve the application.
-                </li>
-              </ul>
             </div>
 
             <div>
@@ -121,48 +58,87 @@ export default function PrivacyPolicy() {
                 Subscriptions
               </h2>
               <p className="mt-3 leading-7 text-[#344054]">
-                Premium subscriptions are processed securely through Apple
-                App Store or Google Play. We do not store your payment
-                information.
+                Some features require an active Premium subscription.
+                Subscription billing is handled entirely through Apple App
+                Store or Google Play.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-black text-[#030B26]">
-                Data Storage
+                Acceptable Use
               </h2>
               <p className="mt-3 leading-7 text-[#344054]">
-                Your information is securely stored on servers managed by
-                Sotter Labs. Reasonable security measures are implemented
-                to protect your data.
+                You agree not to:
+              </p>
+              <ul className="mt-4 space-y-2 leading-7 text-[#344054]">
+                <li className="flex gap-3">
+                  <span className="text-[#7657FF]">•</span>
+                  Use the App for illegal purposes.
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-[#7657FF]">•</span>
+                  Attempt to modify or reverse engineer the App.
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-[#7657FF]">•</span>
+                  Disrupt or interfere with the service.
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-[#7657FF]">•</span>
+                  Create fraudulent accounts.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-black text-[#030B26]">
+                Content
+              </h2>
+              <p className="mt-3 leading-7 text-[#344054]">
+                Juno contains party games intended for entertainment
+                purposes only. Users are responsible for their own
+                decisions and actions while playing.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-[#FFE3B8] bg-[#FFF8EC] p-6">
+              <h2 className="text-xl font-black text-[#030B26]">
+                Alcohol Disclaimer
+              </h2>
+              <p className="mt-3 leading-7 text-[#344054]">
+                Some game modes may include references to alcoholic
+                beverages. Participation is completely optional. Users
+                should always drink responsibly and comply with the laws
+                applicable in their country or region.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-black text-[#030B26]">
-                Children
+                Limitation of Liability
               </h2>
               <p className="mt-3 leading-7 text-[#344054]">
-                Juno is intended only for users who meet the minimum age
-                required in their country. Users who do not meet the
-                minimum age requirement may not create an account.
+                Sotter Labs is not responsible for injuries, damages, or
+                consequences resulting from the use of the App or
+                participation in any challenges suggested by the games.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-black text-[#030B26]">
-                Your Rights
+                Changes
               </h2>
               <p className="mt-3 leading-7 text-[#344054]">
-                You may request access, correction, or deletion of your
-                personal information by contacting us.
+                We may update these Terms from time to time. Continued use
+                of the App constitutes acceptance of any updated version.
               </p>
             </div>
 
             <div className="rounded-2xl bg-[#F8FBFF] p-6">
               <h2 className="text-xl font-black text-[#030B26]">Contact</h2>
               <p className="mt-3 leading-7 text-[#344054]">
-                For questions regarding this Privacy Policy, please contact:
+                Questions regarding these Terms may be sent to:
               </p>
               <a
                 href="mailto:contact@sotterlabs.com"
@@ -174,10 +150,10 @@ export default function PrivacyPolicy() {
           </div>
 
           <Link
-            href="/terms"
+            href="/privacy"
             className="mt-8 inline-flex items-center gap-2 text-sm font-bold text-[#2F7DF6] transition hover:text-[#7657FF]"
           >
-            Read our Terms of Service →
+            Read our Privacy Policy →
           </Link>
         </div>
       </section>
