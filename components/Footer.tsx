@@ -14,11 +14,11 @@ export default function Footer() {
         <div className="flex flex-col items-start gap-3 md:items-end">
           <div className="flex items-center gap-5 text-sm font-bold text-[#344054]">
             <Link href="/privacy" className="transition hover:text-[#2F7DF6]">
-              Privacy Policy
+              Juno Privacy Policy
             </Link>
             <span className="text-[#E6ECF5]">|</span>
             <Link href="/terms" className="transition hover:text-[#2F7DF6]">
-              Terms of Service
+              Juno Terms of Service
             </Link>
           </div>
 
