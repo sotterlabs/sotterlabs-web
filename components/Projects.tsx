@@ -1,6 +1,14 @@
 export default function Projects() {
   const projects = [
     {
+      name: "Frivas, Interior & Steel Framing Ltd.",
+      type: "Business Website",
+      description:
+        "A professional website built for a steel framing and interior construction company in Edmonton. The project includes a modern responsive interface, service presentation, contact flow and production deployment with custom domain and HTTPS.",
+      status: "Live",
+      url: "https://frivassteel.ca",
+    },
+    {
       name: "Juno",
       type: "Social Gaming Platform",
       description:
@@ -46,13 +54,13 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-3">
+        <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {projects.map((project) => (
             <article
               key={project.name}
-              className="rounded-3xl border border-[#E6ECF5] bg-[#F8FBFF] p-8 shadow-sm transition hover:-translate-y-2 hover:border-[#C9DCFF] hover:bg-white hover:shadow-xl"
+              className="flex h-full flex-col rounded-3xl border border-[#E6ECF5] bg-[#F8FBFF] p-8 shadow-sm transition hover:-translate-y-2 hover:border-[#C9DCFF] hover:bg-white hover:shadow-xl"
             >
-              <div className="mb-8 inline-flex rounded-full bg-white px-4 py-2 text-xs font-black text-[#2F7DF6] shadow-sm">
+              <div className="mb-8 inline-flex w-fit rounded-full bg-white px-4 py-2 text-xs font-black text-[#2F7DF6] shadow-sm">
                 {project.status}
               </div>
 
@@ -64,9 +72,20 @@ export default function Projects() {
                 {project.type}
               </p>
 
-              <p className="mt-5 leading-7 text-[#667085]">
+              <p className="mt-5 flex-1 leading-7 text-[#667085]">
                 {project.description}
               </p>
+
+              {project.url && (
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-8 inline-flex w-fit items-center gap-2 rounded-full bg-[#030B26] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#2F7DF6]"
+                >
+                  Visit website →
+                </a>
+              )}
             </article>
           ))}
         </div>
